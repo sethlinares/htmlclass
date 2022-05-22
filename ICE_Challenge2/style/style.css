@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image_block {
+    background-color: #808080;
+    text-align: center;
+}
+
+.image {
+    width: 20%;
+    border-radius: 50%;
+    border: 8px solid #333;
+}
