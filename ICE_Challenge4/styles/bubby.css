@@ -1,0 +1,49 @@
+* {
+    max-width: 320px;
+    
+}
+
+.back {
+    overflow: hidden;
+    border-radius: 4%;
+    
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    background-color: #3F5B89;
+}
+.read {
+    text-align: center;
+}
+
+.views {
+    text-align: center;
+}
+
+.comments {
+    text-align: center;
+}
+
+.week {
+    text-align: center;
+
+}
+
+.post {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding: 1em 1.5em;
+}
+
+section {
+    align-content: center;
+}
+
+img {
+    object-fit: fill;
+}

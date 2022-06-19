@@ -1,7 +1,7 @@
 body {
     background-color: #396E94;
     align-items: center;
-    font-family: 'Koulen',sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -16,6 +16,7 @@ header {
     background-image: linear-gradient(#396E94, #ED6A5A);
     z-index: 0;
 }
+
 
 
 nav a:hover {
@@ -44,6 +45,7 @@ nav {
 }
 h4 {
     color: #396E94;
+    font-family: 'Courier New', Courier, monospace ;
 }
 footer h3 {
     color: #ED6A5A;
@@ -71,7 +73,22 @@ footer {
 
 h2 {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+
 
 #content {
     width: fit-content;
@@ -296,5 +313,63 @@ main section img {
     footer {
         margin-top: 25px;
     }
+
+    
 }
-            
+
+.raft-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.salmon {
+    max-width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.salmon_writing {
+}
+
+.salmon_head {
+    color: #ED6A5A;
+}
+
+.salmon_text {
+    color: #222222;
+}
+
+
+.utah_river {
+    max-width: 100%;
+}
+
+.utah_writing {
+}
+
+.utah_head {
+    color: #ED6A5A;
+}
+
+.utah_text {
+    color: #222222;
+}
+
+.arizona_river {
+    max-width: 100%;
+}
+
+.arizona_river {
+}
+.arizona_head {
+    color: #ED6A5A;
+}
+
+.arizona_text {
+    color: #222222;
+}
