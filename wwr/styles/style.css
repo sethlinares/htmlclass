@@ -74,6 +74,7 @@ footer {
 h2 {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    color: #222222;
 }
 
 h1 {
@@ -86,6 +87,7 @@ h4 {
 
 p {
     font-family: Lato, Helvetica, sans-serif;
+    
 }
 
 
@@ -228,7 +230,7 @@ p {
 }
 
 .msg p {
-    color: #ED6A5A;
+    color: #222222;;
     font-size: .8em;
     padding-bottom: 15px;
     
@@ -252,7 +254,7 @@ p {
 .card-img {
     border: 10px solid #396E94;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px rgb(83, 83, 83);
+    box-shadow: 5px 5px 10px #535353;
 }
 
 .card-img:hover {
