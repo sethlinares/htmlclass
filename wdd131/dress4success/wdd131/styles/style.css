@@ -28,6 +28,7 @@
     font-size: 22px;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
@@ -38,6 +39,7 @@ header {
     grid-template-columns: 150px auto;
     background-image: linear-gradient(#1C5D99, #ED6A5A);
     z-index: 0;
+    
 }
 
 
@@ -70,19 +72,20 @@ h4 {
     color: #222222;
     font-family: 'Courier New', Courier, monospace ;
 }
+
 footer h3 {
-    color: #1C5D99;
+    color: #FFFFFF;
     text-align: left;
 }
 
 footer a {
-    color: #1C5D99;
+    color: white;
     text-decoration: none;
     
 }
 
 footer:hover {
-    color: #1C5D99;
+    color: #ED6A5A;
 }
 
 footer {
@@ -129,12 +132,16 @@ p {
     margin: 0 auto;
 }
 
+
 #cat-hero {
     margin-top: -100px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
 }
+
+
+
 #cat-hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -196,13 +203,56 @@ p {
     grid-row: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    text-align: center;
 
 }
 
 .image-img-home {
     align-self: center;
+    text-align: center;
     
 }
 .kitten-articles-home {
     grid-column: 1/3;
+    text-align: center;
 }
+
+.kitten-media-title {
+    margin-top: 100px;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    align-items: center;
+}
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+        text-align: center;
+
+    }
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        text-align: center;
+    }
+    .div3 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        text-align: center;
+    }
+    .div4 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        text-align: center;
+    }
+    .div5 { 
+        grid-area: 2 / 2 / 3 / 3;
+        text-align: center; 
+    }
+    .div6 { 
+        grid-area: 2 / 3 / 3 / 4; 
+        text-align: center;
+    } 
