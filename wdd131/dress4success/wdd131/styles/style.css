@@ -204,6 +204,8 @@ p {
     justify-items: center;
     align-items: center;
     text-align: center;
+    border-style: groove;
+    border-color: #222222;
 
 }
 
@@ -229,6 +231,8 @@ p {
     grid-row-gap: 0px;
     justify-items: center;
     align-items: center;
+    border-style: groove;
+    border-color: #222222;
 }
     
     .div1 { 
@@ -256,3 +260,11 @@ p {
         grid-area: 2 / 3 / 3 / 4; 
         text-align: center;
     } 
+
+#kitten-article-msg {
+    text-align: center;
+}
+
+.article-grid {
+    text-align: center;
+}
