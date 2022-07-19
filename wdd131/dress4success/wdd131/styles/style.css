@@ -162,7 +162,7 @@ p {
     color: #222222;
 }
 #cat-hero-img {
-    width: 100%;
+    width: 80%;
 }
 
 #logo-link {
@@ -309,6 +309,11 @@ p {
 
 #kitten-article-msg {
     text-align: center;
+}
+
+.article-title {
+    font-size: 3em;
+    color: #222222;
 }
 
 .article-grid {
