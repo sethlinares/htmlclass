@@ -38,8 +38,9 @@ header {
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
-    background-image: linear-gradient(#1C5D99, #ED6A5A);
+    background-image: linear-gradient(#396E94, #ED6A5A);
     z-index: 0;
+    min-width: 1600px;
     
 }
 
@@ -47,7 +48,7 @@ header {
 
 nav a:hover {
     background-color: #ED6A5A;
-    color: #1C5D99;
+    color: #396E94;
     border-radius: 5px;
     z-index: 0;
 }
@@ -85,19 +86,13 @@ footer a {
     
 }
 
-footer:hover {
-    color: #ED6A5A;
-}
-
 footer {
-    background-color: #ED6A5A;
+    background-color: #1C5D99;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    float: none;
 }
 
 
@@ -198,6 +193,10 @@ p {
 
 .social {
     text-align: left;
+}
+.social img {
+    max-width: 64px;
+    max-height: 64px;
 }
 
 .home-grid {
